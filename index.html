@@ -54,8 +54,25 @@
 
             <div id="pmenu" class="md:hidden hidden">
                 <ul class="flex flex-col items-center font-bold text-xs space-y-4 py-4">
-                    <li><a href="#" class="flex items-center space-x-1"><i class="fa-solid fa-pen-to-square"></i><span>EXPRESSION ÉCRITE</span></a></li>
-                    <li><a href="#" class="flex items-center space-x-1"><i class="fa-solid fa-people-arrows"></i><span>EXPRESSION ORALE</span></a></li>
+                    <ul class="flex justify-around items-center font-bold text-xs space-x-4">
+                        <li class="relative group"><a href="#" class="flex items-center space-x-1"><i class="fa-solid fa-pen-to-square"></i><span>EXPRESSION ÉCRITE</span></a>
+                            <ul class="absolute left-0 hidden bg-gray-400 text-white p-2 group-hover:block">
+                                <li><a href="#" class="block px-4 py-2 hover:bg-gray-700 rounded">Sujet d'actualite</a></li>
+                                <li><a href="#" class="block px-4 py-2 hover:bg-gray-700 rounded">methodologie</a></li>
+                                <li><a href="#" class="block px-4 py-2 hover:bg-gray-700 rounded">correction des sujets d'expression ecrite</a></li>
+                                <li><a href="#" class="block px-4 py-2 hover:bg-gray-700 rounded">plateforme de redaction</a></li>
+                            </ul>
+                        </li>
+                        
+                        <li class="relative group"><a href="#" class="flex items-center space-x-1"><i class="fa-solid fa-people-arrows"></i><span>EXPRESSION ORALE</span></a>
+                            <ul class="absolute left-0 hidden bg-gray-400 text-white p-2 group-hover:block">
+                                <li><a href="#" class="block px-4 py-2 hover:bg-gray-700 rounded">Sujet d'actualite</a></li>
+                                <li><a href="#" class="block px-4 py-2 hover:bg-gray-700 rounded">methodologie</a></li>
+                                <li><a href="#" class="block px-4 py-2 hover:bg-gray-700 rounded">correction des sujets</a></li>
+                              
+                            </ul>
+                        </li>
+                        
                     <li><a href="#" class="flex items-center space-x-1"><i class="fa-solid fa-book-open-reader"></i><span>COMPRÉHENSION ÉCRITE</span></a></li>
                     <li><a href="#" class="flex items-center space-x-1"><i class="fa-duotone fa-solid fa-headphones"></i><span>COMPRÉHENSION ORALE</span></a></li>
                     <li><a href="Formulaire.html" class="flex items-center space-x-1"><i class="fa fa-user-plus"></i><span>BONJOUR DOMINIQUE</span></a></li>
